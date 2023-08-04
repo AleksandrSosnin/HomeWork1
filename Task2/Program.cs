@@ -12,7 +12,7 @@ int num2 = int.Parse(Console.ReadLine());
 Console.Write("Введите 3 число: ");
 int num3 = int.Parse(Console.ReadLine());
 
-int MaxNum = 0;
+int MaxNum = num1;
 
 if(num1 > MaxNum ) MaxNum = num1;
 if(num2 > MaxNum ) MaxNum = num2;
